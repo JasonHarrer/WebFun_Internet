@@ -1,0 +1,241 @@
+* {
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    width: 900px;
+    margin: 0px auto;
+}
+
+
+/* Header Section */
+.page-header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page-header img {
+    width: 75px;
+    height: 75px;
+    vertical-align: middle;
+}
+
+.page-header h1 {
+    font-size: 48px;
+    font-weight: 200;
+}
+
+.page-header h1 strong {
+    color: #2768a0;
+}
+
+.page-header h2 {
+    background-image: linear-gradient(to top, #2768a0, #5082ac, #2768a0);
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: -15px;
+    padding: 10px;
+}
+
+.content {
+    background-image: linear-gradient(to top, #ffffff, #e4e4e4);
+}
+
+/* Sidebar Section */
+.sidebar {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 190px;
+    margin-top: 10px;
+}
+
+/* Sidebar Introduction */
+.sidebar .introduction {
+    padding: 10px 5px 15px;
+    border-bottom: solid 2px #9a9a9a77;
+}
+
+.sidebar .introduction h4 {
+    font-size: 14px;
+    margin: 5px 5px 10px;
+}
+
+.sidebar .introduction p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sidebar .introduction a {
+    display: block;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.sidebar .introduction #video_button {
+    margin-top: 15px;
+    background-image: linear-gradient(to top, #3573a9, #6096c2);
+}
+
+.sidebar .introduction #more_resources_button {
+    background-image: linear-gradient(to top, #f07600, #ebac55);
+}
+
+.sidebar .introduction span {
+    color: red;
+}
+
+.sidebar .introduction strong {
+    color: #2768a0;
+}
+
+
+/* Sidebar ad */
+.sidebar .ad {
+    background-image: url("images/ad_background.png");
+    color: white;
+    margin-top: 20px;
+    min-height: 250px;
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar .ad h3 {
+    font-size: 20px;
+}
+
+.sidebar .ad img {
+    display: block;
+    width:  80px;
+    margin: 10px auto 20px;
+}
+
+.sidebar .ad #learn_more_button {
+    background-image: linear-gradient(to top, #00c1df, #7bd1df);
+    border: solid 2px #000000;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-decoration-line: none;
+}
+
+
+/* Article Section */
+.article {
+    display: inline-block;
+    margin: 0px 10px 5px 20px;
+    vertical-align: top;
+    max-width: 660px;
+}
+
+/* Article Header */
+.article .article-header {
+    border-bottom: 1px solid #a9a9a9;
+    display: flex;
+    margin-top: -5px;
+}
+
+.article .article-header #home {
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    vertical-align: text-bottom;
+}
+
+.article .article-header h4 {
+    color: #3573a9;
+    flex: 15;
+    font-size: 13px;
+    font-weight: 200;
+    margin: 5px 200px 0 5px;
+}
+
+.article .article-header #phone {
+    flex: 2;
+    height: 50px;
+    width: 50px;
+    margin: auto 0;
+}
+
+.article .article-header .contact-info {
+    flex: 4;
+    margin-left: 10px;
+    margin: 0 0 0 10px;
+}
+
+.article .article-header .contact-info p {
+    font-size: 10px;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.article .article-header .contact-info h3 {
+    color: #00c0df;
+    font-size: 24px;
+    margin: -5px 0;
+}
+
+/* Article: Main section */
+.article .article-main {
+    margin-bottom: 15px;
+}
+
+.article .article-main h3 {
+    color: #22659e;
+    font-size: 20px;
+}
+
+.article .article-main h3, p, ol, ul, li {
+    margin: 6px 0;
+}
+
+.article .article-main ol,ul {
+    padding-left: 36px;
+}
+
+.article .article-main #client_server {
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.article .article-main em {
+    color: #0097af;
+    font-style: normal;
+}
+
+
+/* Article Footer */
+.article .article-footer {
+    border-color: #0085e0;
+    border-width: 10px 10px 0 10px;
+    border-style: solid;
+    padding: 10px 5px;
+}
+
+.article .article-footer #html_logo {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.article .article-footer .article-footer-text {
+    display: inline-block;
+    max-width: 515px;
+    vertical-align: top;
+}
+
+.article .article-footer .article-footer-text h3 {
+    color: #22659e;
+    font-size: 20px;
+}
+
+.article .article-footer .article-footer-text a {
+    color: #0097af;
+    text-decoration-line: none;
+}
